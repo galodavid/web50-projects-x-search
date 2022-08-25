@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Product Sans";
+    src: url('./product-sans/Product\ Sans\ Regular.ttf');
+}
+header{
+    text-align: right;
+}
+body{
+    font-family: Product Sans;
+}
+h2{
+    text-align: left;
+}
+a{
+    padding: 10px;
+    font-size: 13px;
+    font-family: Product Sans;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+div > form{
+    text-align: center;
+}
+input:hover {
+    border: 1px solid black;
+}
+input[type=submit]{
+    width: 130px;
+    height: 35px;
+    font-size: 12px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border-color: gray;
+    border-width: 1px;
+}
+div > h1{
+    text-align: center;
+    font-size: 90px;
+    font-family: Product Sans;
+    height: 70px;
+}
+.search-icon {
+    position: absolute;
+    top: 229px;
+    left: 420px;
+    width: 14px;
+  }
+
+.clear-icon {
+    position: absolute;
+    top: 213px;
+    right: 445px;
+    width: 15px;
+    cursor: pointer;
+    visibility: hidden;
+}
+.search {
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 30px;
+    width: 450px;
+    padding: 2px 23px 2px 30px;
+    outline: 0;
+    background-color: #f5f5f5;
+}
+.advanced {
+  text-align: left;
+  font-size: 20px;
+  padding: 5px;
+  margin-left: 60px;
+}
+.search_advanced{
+    width: 500px;
+    height: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: 0;
+    background-color: #f5f5f5;
+    padding: 8px;
+    margin-top: 10px;
+}
+label{
+    width: 250px;
+    margin-right: 150px;
+    display: inline-block;
+}
+.search_advanced:active{
+    border: 1px solid blue;
+}
+.search_advanced:hover{
+    border: 1px solid blue;
+}
